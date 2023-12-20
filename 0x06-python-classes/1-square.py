@@ -2,10 +2,11 @@
 
 """Define a class Square."""
 class Square:
-     """Initialize a new Square.
-
-        Args:
-            size (int): The size of the new square.
-        """
+     """representation of square."""
     def __init__(self, size):
-        self.__size = size
+         
+         """ define the size of square
+         args:
+              size : size of square
+         """
+         self.__size = size
