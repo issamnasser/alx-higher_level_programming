@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Rectangle module."""
 
 class Rectangle:
+    """A class representing a rectangle."""
+
     def __init__(self, width=0, height=0):
         self.__width = width
         self.__height = height
@@ -29,4 +32,3 @@ class Rectangle:
 
     width = property(get_width, set_width)
     height = property(get_height, set_height)
-
